@@ -1,10 +1,10 @@
 "use client";
 
 import { DashboardData } from "@/types/fund";
-import { calculateCAGR } from "@/Lib/cagr";
-import { calculateMaxDrawdown } from "@/Lib/drawdown";
-import { calculateVolatility } from "@/Lib/volatility";
-import { calculateSharpe } from "@/Lib/sharpe";
+import { calculateCAGR } from "@/lib/cagr";
+import { calculateMaxDrawdown } from "@/lib/drawdown";
+import { calculateVolatility } from "@/lib/volatility";
+import { calculateSharpe } from "@/lib/sharpe";
 
 export default function AIInsights({
   dashboardData,

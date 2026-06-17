@@ -1,7 +1,7 @@
 "use client";
 
 import { DashboardData } from "@/types/fund";
-import { calculateAnnualReturns } from "@/Lib/annualReturns";
+import { calculateAnnualReturns } from "@/lib/annualReturns";
 
 export default function ReturnHeatmap({
   dashboardData,
