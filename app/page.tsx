@@ -49,7 +49,7 @@ export default function Home() {
 
           {
             dashboardData.fundName ||
-            "Mutual Fund Insights Dashboard"
+            "Mutual Fund Insights Dashboard | Created by Ivan Roy"
           }
 
         </h1>
