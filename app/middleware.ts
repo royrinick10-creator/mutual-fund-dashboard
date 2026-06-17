@@ -1,9 +1,9 @@
-```ts
+
 import { NextRequest, NextResponse } from "next/server";
 
 export function middleware(req: NextRequest) {
   const username = "ivan";
-  const password = "FundIQ2026";
+  const password = "FundIQ2026@rinick";
 
   const basicAuth = req.headers.get("authorization");
 
@@ -42,4 +42,4 @@ export const config = {
     "/((?!_next/static|_next/image|favicon.ico).*)",
   ],
 };
-```
+
